@@ -7,7 +7,6 @@
  * alloc -> handout pieces of large character array we call allocbuf
  * allocp -> it is a pointer that points to the next free elements.
  */
-#define ALLOCSIZE 10000 
 static char allocbuf[ALLOCSIZE];
 static char *allocp = allocbuf;
 
